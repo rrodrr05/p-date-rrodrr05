@@ -15,6 +15,7 @@ public class MainDate {
 		//}
 
 	System.out.println("DATE IN MainDate CLASS");
+	System.out.println("");
 		System.out.println(today + " isSameYear " + tomorrow + "? " + today.isSameYear(tomorrow));
 		System.out.println(today + " isSameMonth " + tomorrow + "? " + today.isSameMonth(tomorrow));
 		System.out.println(today + " isSameDay " + tomorrow + "? " + today.isSameDay(tomorrow));
@@ -35,7 +36,9 @@ public class MainDate {
 
 	System.out.println("Is the "+ today.dayOfWeek() +" day of the week");
 
+	System.out.println("");
 	System.out.println("RANDOM DATE");
+	System.out.println("");
 		System.out.println(aleatorio + " isSameYear " + tomorrow + "? " + aleatorio.isSameYear(tomorrow));
 		System.out.println(aleatorio + " isSameMonth " + tomorrow + "? " + aleatorio.isSameMonth(tomorrow));
 		System.out.println(aleatorio + " isSameDay " + tomorrow + "? " + aleatorio.isSameDay(tomorrow));
